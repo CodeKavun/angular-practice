@@ -1,1 +1,9 @@
-<app-news-list></app-news-list>
+<div>
+    <div class="pr">
+        <p>The biggest:</p>
+        <button (click)="updateInfoText(biggestCarInfo)">Car</button>
+        <button (click)="updateInfoText(biggestPlaneInfo)">Plane</button>
+        <button (click)="updateInfoText(biggestShipInfo)">Ship</button>
+        <h2>{{displayText}}</h2>
+    </div>
+</div>
